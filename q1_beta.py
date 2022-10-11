@@ -120,7 +120,7 @@ for i in s:
 
 dict_ing=[(a,b) for a,b in dict_ing.items()] # a list now
 dict_ing.sort(key=lambda x:x[1])
-#print(dict_ing)
+
 
 l=[]                        #final printing of the ranked list
 for i in dict_ing:
